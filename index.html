@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live radio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="css/icon.png">
+
+</head>
+<body>
+<main id="player">
+    <header>
+        <img src="img/logo.jpg" alt="">
+        <h2>live radio</h2>
+        <p id="title_radio">radio 1</p>
+    </header>
+    <div id="content">
+
+<article id="buttons">
+<img src="img/back.png" id="back"/>
+<img src="img/play.png" id="play_pause"/>
+<img src="img/next.png" id="next"/>
+<audio src="music.mp3" id="audio_file"></audio>
+</article>
+<article id="volume">
+    <h2>volume</h2>
+    <input type="range" id="volume_range">
+    <h2>speed</h2>
+    <input type="range" id="volume_speed" max="200" min="0">
+</article>
+<article id="color">
+<button id="color1"></button>
+<button id="color2"></button>
+<button id="color3"></button>
+<button id="color4"></button>
+
+</article>
+    </div>
+
+</main>
+
+    <script src="script/app.js"></script>
+    <script src="script/app2.js"></script>
+    <script src="script/app3.js"></script>
+
+</body>
+</html>
